@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Age In Days</title>
+  </head>
+  <body>
+    <div class="main_____Wrap w-full">
+      <div class="total_____wrap border-2 w-1/5 p-4 shadow-lg shadow-indigo-500/40 mt-5 rounded-md">
+        <div class="inner____Wrap">
+          <h1 class="text-center text-3xl underline underline-offset-8">
+            Your Age In Days
+          </h1>
+          <div class="all____btn flex justify-center items-center mt-5">
+            <button
+              class="rounded-full bg-emerald-600 hover:bg-emerald-700 text-white p-3 m-1" onclick="ageINDays()"
+            >
+              Click To Know
+            </button>
+            <button
+              class="rounded-full bg-orange-700 hover:bg-orange-800 text-white p-3 m-1" onclick="reset()"
+            >
+              Reset
+            </button>
+          </div>
+        
+
+          <div class="age____days___result">
+            <p
+              class="text-2xl font-semibold flex justify-center items-center mt-5" id="result___text"
+            >
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
